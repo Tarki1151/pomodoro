@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Zamanlayıcısı</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pomodoro Zamanlayıcısı</h1>
+        <div class="pomodoro-count">Tamamlanan Pomodoro: <span id="pomodoroCount">0</span></div>
+        <div class="status" id="status">Çalışma Zamanı</div>
+        <div class="timer">
+            <img id="minTens" src="images/2.png" alt="2">
+            <img id="minOnes" src="images/5.png" alt="5">
+            <span>:</span>
+            <img id="secTens" src="images/0.png" alt="0">
+            <img id="secOnes" src="images/0.png" alt="0">
+        </div>
+        <div class="controls">
+            <button id="start">Başlat</button>
+            <button id="pause">Duraklat</button>
+            <button id="reset">Sıfırla</button>
+        </div>
+        <img src="tomato.png" alt="Domates" class="tomato">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
