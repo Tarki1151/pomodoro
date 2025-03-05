@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('farm_cute.jpeg');
+    background-size: 1024px 1024px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ff6347;
+}
+
+.pomodoro-count {
+    font-size: 18px;
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+
+.status {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ff9800;
+}
+
+.timer {
+    margin: 20px 0;
+}
+
+.timer img {
+    width: 75px;
+    height: 75px;
+    vertical-align: middle;
+}
+
+.timer span {
+    font-size: 48px;
+    color: #4caf50;
+    vertical-align: middle;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#start {
+    background-color: #4caf50;
+    color: white;
+}
+
+#pause {
+    background-color: #ff9800;
+    color: white;
+}
+
+#reset {
+    background-color: #f44336;
+    color: white;
+}
+
+.tomato {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
